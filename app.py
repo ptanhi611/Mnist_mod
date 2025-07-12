@@ -3,7 +3,7 @@ import streamlit as st
 import torch
 import torch.nn as nn
 import numpy as np
-from canvas import get_digit_from_canvas
+from canva import get_digit_from_canvas
 
 # Define model architecture
 class NeuralNetwork(nn.Module):
